@@ -1,0 +1,11 @@
+{% block navbar %}
+<nav class="main-nav">
+    {% if request.path == "/about" %}
+    <a href="/">Home</a>
+    {% endif %}
+    {% if request.path == "/" %}
+    <a href="/about">About</a>
+    {% endif %}
+    <a href="https://github.com/thomasperrot">GitHub</a>
+</nav>
+{% endblock %}
