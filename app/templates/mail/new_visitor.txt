@@ -1,3 +1,0 @@
-New visitor
-User-agent: {{ user_agent }}
-IP: {{ ip }}
